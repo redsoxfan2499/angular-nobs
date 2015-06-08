@@ -5,7 +5,7 @@ You can use it to quickly bootstrap your angular webapp projects and dev environ
 projects.
 
 Feel Free to use this skelton app however you like. Any questions or suggestions. Please contact us here:
-<a href="http://hyperdrivedesigns.com/contact-us/">Contact Us</a>
+[Contact Us](http://hyperdrivedesigns.com/contact-us/)
 
 This skelton app contains some of the common AngularJS libraries. There are no test libraries/frameworks or no built in server. No need to learn Bower, Grunt, Node JS, Karma, Jasmine and all of those extra overhead libraries found in a lot of other Angular JS Skelton Apps. You will need a web server on your local machine such as WAMP, MAMP or XAMPP. If you already have a dev staging server then you can also use that. No extra libraries, no built in server, no bunch of dependencies. No EXTRA Overhead. No BS!! All you need is a web server. Just clone the repo (or download the zip/tarball), into your local dev server or just download the files and then upload them up to your staging server and you are ready to develop and test your application.
 
