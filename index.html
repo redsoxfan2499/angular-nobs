@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>AngularJS NO BS!</title>
+  <link rel="stylesheet" href="css/app.css"/>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h3 class="text-center">Angular No BS</h3>
+    </header>
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="menu">
+          <li><a href="#/view1" class="btn btn-primary">view1</a></li>
+          <li><a href="#/view2" class="btn btn-primary">view2</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">View Examples</h3>
+          </div>
+          <div class="panel-body">
+            <p>View 1 uses a simple function to get the current date.</p>
+            <p>View 2 uses a simple function and an input box with binding.</p>
+          </div>
+        </div> 
+      </div>
+    </div>
+    <div ng-view>
+
+    </div>
+  </div>  
+
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular/angular-route.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+  <script type="text/javascript">
+    var HelloCtrl = function ($scope) {
+        $scope.name = 'Google';
+        $scope.getName = function() {
+            return $scope.name;
+        };
+    }
+  </script>
+  <script>
+    function getDate($scope) {
+      $scope.currentDate = new Date();
+    }
+  </script>
+</body>
+</html>
